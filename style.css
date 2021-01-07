@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Lato';
+    background: #fff;
+}
+
+ul,li {
+    list-style-type: none;
+    margin: 0;
+}
+
+a {
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+h6{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 30px 100px;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    margin-right: 50px;
+}
+
+ .bg {
+    
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+} 
+
+ul li a {
+    font-size: 18px;
+    font-weight: bold;
+
+    
+}
+
+.banner {
+    padding-left: 100px;
+    padding-right: 30px;
+    align-items: center;
+}
+
+h1 {
+    margin-left: 400px;
+    color: #FFB633;
+    font-size: 45px;
+    font-family: "Rancho";
+    margin-top: 50px;
+}
+
+p {
+    font-weight: bolder;
+    line-height: 1.7;
+    color:rgb(175, 45, 45);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    margin-left: 470px;
+    text-transform: capitalize;
+}
+
+.btn {
+    padding: 12px 40px;
+    background-color: #FFB633;
+    border-radius: 50px;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 550px;
+    color: cornsilk;
+}
+
+.btn2 {
+    padding: 12px 40px;
+    background-color: #ff5c33;
+    border-radius: 50px;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    color: ivory;
+}
+
+.logo{
+    margin-left: 10px;
+}
+
+
+h3{
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    color:rgb(175, 45, 45);
+    margin-top: 150px;
+
+}
+
+.mark{
+    text-transform: capitalize;
+    
+}

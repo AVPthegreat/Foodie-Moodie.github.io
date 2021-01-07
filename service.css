@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+ .bg {
+    
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+} 
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Lato';
+    background: rgb(0, 0, 0);
+}
+
+ul,li {
+    list-style-type: none;
+    margin: 0;
+
+}
+
+a {
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+h6{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 30px 100px;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    margin-right: 50px;
+}
+
+
+
+ul li a {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+
+    
+}
+
+.clr a
+{text-decoration:none;
+color:white;}
+
+
+
+.head2
+{background:#f6f6f6;
+text-align:left;
+}
+
+.head2 p
+{line-height:25px;
+margin-left:100px;}
+
+.head2 h2
+{margin-left:100px;}
+.btn{width:50%;
+height:25px;
+}
+.btn2{padding:10px 20px;
+}
+.head2 input{margin: 10px 0;}
+
+
+
+
+
+
+
+
+.back
+{background:#3A6D0B;}
+
+.back a
+{border:1px solid black;
+background:#b8353a;
+margin-left:20px;
+padding:10px;color:white;
+text-decoration:none;}
+
+
+
+
+
+/*  
+
+.banner {
+    padding-left: 100px;
+    padding-right: 30px;
+    align-items: center;
+}
+
+
+h1 {
+    margin-left: 400px;
+    color: #FFB633;
+    font-size: 45px;
+    font-family: "Rancho";
+    margin-top: 50px;
+}
+
+
+
+.btn {
+    padding: 12px 40px;
+    background-color: #FFB633;
+    border-radius: 50px;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 550px;
+    color: cornsilk;
+}
+
+.btn2 {
+    padding: 12px 40px;
+    background-color: #ff5c33;
+    border-radius: 50px;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    color: ivory;
+}
+
+.logo{
+    margin-left: 10px;
+}
+/*  */
+
+
+
+h1 {
+    margin-left: 350px;
+    color: #FFB633;
+    font-size: 40px;
+    font-family: "Rancho";
+    margin-top: 50px;
+}
+h4 {
+    margin-left: 650px;
+    color: darkcyan;
+    font-size: 30px;
+    font-family: "Rancho";
+    margin-top: 40px;
+}
+
+
+
+
+
+
+.ser1{
+    text-align: center;
+     border-radius: 30px;
+    background-color: #74292b;
+    padding: 14px 15px;
+    margin-left: 100px;
+    margin-top: 50px;
+    color: antiquewhite;
+
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+h5{
+    text-align: center;
+}

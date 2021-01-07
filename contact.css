@@ -1,0 +1,132 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+} .bg {
+    
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+} 
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Lato';
+    background: #fff;
+}
+
+ul,li {
+    list-style-type: none;
+    margin: 0;
+
+}
+
+a {
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+h6{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 30px 100px;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    margin-right: 50px;
+}
+
+
+
+ul li a {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+
+    
+}
+
+.mark{
+    color: wheat;
+    text-transform: capitalize;
+}
+
+h1{text-align: center;
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 55px;
+    margin-top: 20px;
+}
+
+
+
+.btn {
+    padding: 12px 40px;
+    background-color: #FFB633;
+    border-radius: 50px;
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: 450px;
+    color: cornsilk;
+}
+
+.btn2 {
+    padding: 12px 40px;
+    background-color: #ff5c33;
+    border-radius: 50px;
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: 50px;
+    color: ivory;
+}
+
+
+
+.cred-tab{
+    background-color: burlywood;
+    font-size: 20px;
+    color: black;
+    border-radius: 20px;
+    padding: 22px 30px;
+    margin-left: 200px;
+    margin-top: 120px;
+}
+
+
+.cred-mob{
+    background-color: burlywood;
+    font-size: 20px;
+    color: black;
+    border-radius: 20px;
+    padding: 22px 40px;
+    margin-left: 200px;
+    margin-top: 120px;
+
+}
+
+
+
+.cred-add{
+    background-color: burlywood;
+    font-size: 20px;
+    color: black;
+    border-radius: 20px;
+    padding: 22px 40px;
+    margin-left: 200px;
+
+    margin-top: 120px;
+
+}
